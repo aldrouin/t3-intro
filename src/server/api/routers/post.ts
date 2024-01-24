@@ -21,7 +21,7 @@ export const postRouter = createTRPCRouter({
         data: {
           name: input.name,
         },
-      });
+      })
     }),
 
   getLatest: publicProcedure.query(({ ctx }) => {
